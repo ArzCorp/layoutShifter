@@ -47,7 +47,7 @@
 }
 
 .character__image {
-  width: 30%;
+  width: 40%;
   padding-right: var(--spacing-min);
 }
 
@@ -58,19 +58,22 @@
 }
 
 .item__image {
-  width: 30%;
+  width: 40%;
   padding-right: var(--spacing-min);
 }
 
 .content__appearance {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   padding: var(--spacing-x2) var(--spacing-min);
+  text-align: center;
 }
 
 .appearance__image {
   width: 50%;
   padding-right: var(--spacing-min);
+  padding-bottom: var(--spacing-x1);
 }
 
 .content__episode {
