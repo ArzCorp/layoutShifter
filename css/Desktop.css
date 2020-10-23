@@ -1,0 +1,28 @@
+.content {
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: calc(100vh - 70px);
+}
+
+.content__character {
+  width: 33%;
+}
+
+.content__appearance {
+  flex-direction: column;
+  width: 33%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.appearance__image {
+  min-width: 170px;
+  margin-right: 0px;
+  margin-bottom: var(--spacing-x1);
+}
+
+.content__episode {
+  width: 33%;
+  margin: 0px auto;
+  max-width: max-content;
+}

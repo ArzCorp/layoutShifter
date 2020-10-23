@@ -2,11 +2,43 @@
   flex-direction: row
 }
 
+.header__logo {
+  padding-left: var(--spacing-min);
+}
+
 .navbar__container {
   display: flex;
   justify-content: space-between;
 }
 
 .navbar__link {
+  font-size: 1.6rem;
   min-height: 70px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: calc(100vh - 70px);
+  padding: 0px var(--spacing-x1);
+}
+
+.content__character {
+  width: 50%;
+}
+
+.content__appearance {
+  display: flex;
+  align-items: center;
+  max-width: 330px;
+  margin: 0px auto;
+}
+
+.appearance__image {
+  margin-right: var(--spacing-x1);
+}
+
+.content__episode {
+  max-width: 330px;
+  margin: 0px auto;
 }

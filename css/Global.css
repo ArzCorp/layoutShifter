@@ -65,3 +65,23 @@ button:hover {
 ul {
   list-style: none;
 }
+
+img {
+  object-fit: contain;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+  /*Fonts-size*/
+  --size-title: 1.8rem;
+  --size-subtitle: 1.3rem;
+  --size-text: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+  /*Fonts-size*/
+  --size-text: 1.6rem;
+  }
+}

@@ -27,6 +27,65 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  outline: none;
   width: 100%;
   min-height: 30px;
+}
+
+.content {
+  background-color: var(--color-dark);
+}
+
+.content h1 {
+  padding-bottom: var(--spacing-x1);
+}
+
+.character__container {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-x2) var(--spacing-min);
+}
+
+.character__image {
+  width: 30%;
+  padding-right: var(--spacing-min);
+}
+
+.item__container {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-x2) var(--spacing-min);
+}
+
+.item__image {
+  width: 30%;
+  padding-right: var(--spacing-min);
+}
+
+.content__appearance {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing-x2) var(--spacing-min);
+}
+
+.appearance__image {
+  width: 50%;
+  padding-right: var(--spacing-min);
+}
+
+.content__episode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-x2) var(--spacing-min);
+}
+
+.episode__image {
+  width: 80%;
+  padding-right: var(--spacing-min);
+  padding-bottom: var(--spacing-min);
+}
+
+.episode__description {
+  text-align: center;
 }
