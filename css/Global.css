@@ -1,0 +1,63 @@
+:root {
+  /* Colors */
+  --color-dark: #24325F;
+  --color-secondary: #97CE4C;
+  --color-clear: #ffffff;
+
+  /*Font-family*/
+  --font-principal: 'Montserrat', sans-serif;
+
+  /*Fonts-size*/
+  --size-title: 1.6rem;
+  --size-subtitle: 1.2rem;
+  --size-text: 1.0rem;
+  --size-big: 3.6rem;
+
+  /*Spacing*/
+  --spacing-min: 5px;
+  --spacing-x1: 10px;
+  --spacing-x2: 20px;
+  --spacing-x3: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: var(--font-principal);
+  font-size: 62.5%;
+}
+
+h1 {
+  color: var(--color-secondary);
+  font-size: var(--size-title);
+}
+
+h2 {
+  color: var(--color-secondary);
+  font-size: var(--size-subtitle);
+}
+
+p {
+  color: var(--color-clear);
+  font-size: var(--size-text);
+}
+
+a,
+button {
+  font-weight: bold;
+  padding: var(--spacing-min) var(--spacing-x1);
+  font-size: var(--size-title);
+  text-decoration: none;
+  color: var(--color-secondary);
+  background-color: var(--color-dark);
+}
+
+a:hover,
+button:hover {
+  color: var(--color-dark);
+  background-color: var(--color-secondary);
+}

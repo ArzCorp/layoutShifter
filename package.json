@@ -1,0 +1,28 @@
+{
+  "name": "layout_shifter",
+  "version": "1.0.0",
+  "description": "This landing page is one practice the definitive HTML and CSS course of platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ArzateCompany/layoutShifter.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "layout",
+    "shifter",
+    "practice",
+    "landing",
+    "page"
+  ],
+  "author": "@ArzateCompany",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArzateCompany/layoutShifter/issues"
+  },
+  "homepage": "https://github.com/ArzateCompany/layoutShifter#readme"
+}
