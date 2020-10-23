@@ -1,0 +1,12 @@
+.header {
+  flex-direction: row
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__link {
+  min-height: 70px;
+}
