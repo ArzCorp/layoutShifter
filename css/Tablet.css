@@ -39,6 +39,8 @@
 }
 
 .content__episode {
-  max-width: 330px;
+  width: 100%;
+  max-width: 400px;
+  padding: var(--spacing-x1);
   margin: 0px auto;
 }
